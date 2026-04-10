@@ -6,28 +6,6 @@ Aqui estão **exemplos comentados** (instruções persistentes, prompts e decis�
 
 ---
 
-## Links e referências
-
-O arquivo **[Links.md](Links.md)** reúne URLs e ponteiros citados na montagem deste material (este repositório e roteiros externos relacionados, quando existirem no mesmo workspace do instrutor), com breve contexto e sem duplicar listas enormes de skills linha a linha.
-
-Já o arquivo **[Material.md](Material.md)** oferece um caminho prático de aprofundamento: começando pela documentação oficial, passando por ferramentas de apoio, artigos importantes e espaços de comunidade, com explicações sobre como cada recurso ajuda no aprendizado.
-
-| Classificação | O que entra |
-|---|---|
-| **Ferramentas deste material** | AgentLens, statusline, Superpowers, npm CLI, scripts raw, repos auxiliares (ex.: claude-eval) |
-| **Claude Code** | Documentação em `code.claude.com` (comandos, custos, skills, headless, agendamento, …) |
-| **Claude / Anthropic (docs)** | Prompt engineering, settings, memory, subagents, artigo engineering |
-| **Plataforma Claude (API)** | Preços, prompt caching, agent skills, testes e eval na console |
-| **OpenAI Codex** | Hub developers, AGENTS.md, skills, MCP, plugins, enterprise |
-| **Cursor** | Docs, rules, MCP, memories, marketplace |
-| **Catálogo Anthropic Skills** | Repositório `anthropics/skills` e skills citadas em roteiros de marketplace |
-| **Integrações (exemplos)** | Produtos citados como conectores em roteiros de plugins / MCP (Figma, Slack, DBs, …) |
-| **Terceiros** | Blogs, pesquisa Chroma, listas awesome, artigos de evals e pricing |
-| **Redes** | Posts em X citados em materiais de apoio |
-| **Só texto / interno** | Links relativos que podem falhar no clone isolado, menções a arquivos de exemplo |
-
----
-
 ## O que há neste repositório
 
 ### `exemplos-agents/` — regras boas vs. regras que a IA ignora
@@ -116,23 +94,6 @@ Reinicie o Claude Code. Requer `bash`, `jq` e `git`.
 
 ---
 
-## Progressão sugerida (sem ordem rígida)
+## 📚 Aprofundamento e Referências
 
-```
-Medir antes de otimizar
-  └── AgentLens + Statusline para estabelecer baseline de custo
-
-Instruções persistentes e hierarquia
-  └── exemplos-agents/ (AGENTS_md_RUIM → AGENTS_md_BOM; RESUMO)
-      comparação ao vivo, reescrita em tempo real
-
-Sessão, prompts e continuidade
-  └── exemplos-promps/ (pares ruim × bom por cenário)
-  └── clear-compact-subagent/ (/compact vs nova sessão vs subagent)
-
-Temas avançados (MCP, skills, subagents, evals, …)
-  └── conteúdo costuma estar no LMS ou em materiais complementares do instrutor
-  └── Statusline segue útil como painel contínuo de custo e cache hit
-```
-
-A ideia central: **medição primeiro** (AgentLens + statusline), depois **instruções e prompts** que o agent realmente segue, e por fim **decisões de sessão** quando o contexto pesa ou a tarefa muda de forma.
+O arquivo **[Material.md](Material.md)** oferece um caminho prático de aprofundamento: começando pela documentação oficial, passando por ferramentas de apoio, artigos importantes e espaços de comunidade, com explicações sobre como cada recurso ajuda no aprendizado.
