@@ -34,7 +34,7 @@ Cenários em **arquivos separados** (`01-code-review.md` … `06-restricao-expli
 
 ### 🔍 AgentLens — AI Context Cost Scanner
 
-**Repositório:** [github.com/hugohvf/agentlens](https://github.com/alura-cursos/agentlens)
+**Repositório:** [github.com/alura-cursos/agentlens](https://github.com/alura-cursos/agentlens)
 
 AgentLens escaneia repositórios em busca de arquivos de configuração de agentes (`AGENTS.md`, `CLAUDE.md`, `.cursorrules` e outros), resolve todas as referências e imports declarados nesses arquivos, e calcula o **custo real em tokens por requisição** — com suporte a 20+ modelos da Anthropic, OpenAI, Google, DeepSeek e outros.
 
@@ -46,7 +46,7 @@ A linha de raciocínio começa medindo custo antes de otimizar. AgentLens torna 
 
 ```bash
 # CLI (requer Node.js >= 18)
-npm install -g @hugofusinato/agentlens
+npm install -g @alura-cursos/agentlens
 agentlens              # analisa o diretório atual
 agentlens /path/repo   # analisa um caminho específico
 agentlens --open       # abre o relatório no navegador
@@ -58,7 +58,7 @@ Ou baixe `agentlens.html` do repositório e cole a URL de qualquer repo público
 
 ### 📊 Claude Code Statusline
 
-**Repositório:** [github.com/hugohvf/claude-code-statusline](https://github.com/alura-cursos/claude-code-statusline)
+**Repositório:** [github.com/alura-cursos/claude-code-statusline](https://github.com/alura-cursos/claude-code-statusline)
 
 Script de statusline para Claude Code que exibe, em tempo real no terminal, três camadas de informação sobre a sessão em andamento:
 
@@ -76,7 +76,7 @@ Context engineering sem observabilidade é cego. O statusline transforma o custo
 
 ```bash
 # Instalação em um comando
-curl -fsSL https://raw.githubusercontent.com/hugohvf/claude-code-statusline/main/install.sh | bash
+curl -fsSL https://raw.githubusercontent.com/alura-cursos/claude-code-statusline/main/install.sh | bash
 ```
 
 Ou manualmente: baixe `statusline.sh` para `~/.claude/statusline.sh` e adicione ao seu `~/.claude/settings.json`:
